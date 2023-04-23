@@ -30,6 +30,8 @@ npm install express body-parser express-validator
 ├─ src/
 │  ├─ app.ts # Defines the class for the application
 │  ├─ server.ts # Runs the server
+│  ├─ controllers/
+│    ├─ Home.controllers.ts # Base controller
 ├─ .env.example # Show description for .env file
 ├─ .gitignore # Ignore files config
 ├─ package.json # Proyect config

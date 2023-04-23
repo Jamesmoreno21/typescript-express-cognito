@@ -29,7 +29,7 @@ class App {
   private initializeControllers(controllers: [any]) {
     // Loop through controllers and register them
     controllers.forEach((controller: any) => {
-      this.app.use('/', controller.router);
+      this.app.use(controller.path, controller.router);
     });
   }
   // Start the server
